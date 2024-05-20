@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopee Replica</title>
+    <link rel="stylesheet" href="shirt web.css">
+</head>
+<body>
+    <header>
+    
+        <nav>
+            <li class="uplogo">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-menu-176-433842.png" alt="menu"/>
+                <a href="#">Menu</a>
+            </li>
+
+            <form class="example" action="/action_page.php" style="margin: 25px;;max-width:175px">
+                <input type="text" placeholder="Search.." name="search2">
+              </form>
+
+            <img src="file:///D:/Focusite/please%20design%20my%20brand%20logo%20name%20Lunar%20Lover%20in%20kind%20of%20minimal%20and%20dominated%20for%20looking%20i%20w%201.png" alt="lunarlover" class="center">
+            <ul class="nav-links">
+                <li class="uplogo">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3276/3276535.png" alt="account" />
+                    <a href="#">Account</a>
+                </li>
+                <li class="uplogo">
+                    <img src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png" alt="cart" />
+                    <a href="#">Cart</a>
+                </li>
+            </ul>
+        </nav>
+s
+    </header>
+    <body>
+        
+        <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+          <img src="https://cdn.leonardo.ai/users/0a6cb212-b117-43c7-a244-0a0665145083/generations/12c2910d-379d-4d13-a905-2b9b99b051be/Default_i_want_to_have_the_background_for_the_advertisement_th_0.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="https://cdn.leonardo.ai/users/0a6cb212-b117-43c7-a244-0a0665145083/generations/388df954-4914-4753-88b3-cd5198d5b5b9/Default_i_want_to_have_the_background_for_the_advertisement_th_0.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="https://cdn.leonardo.ai/users/0a6cb212-b117-43c7-a244-0a0665145083/generations/c23bf4ab-ed67-4928-9dc5-64830acd56bd/Default_i_want_to_have_the_background_for_the_advertisement_th_0.jpg" style="width:100%">
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+    </body>
+    <main>
+        <div class="product-list">
+            <div class="product" onclick="openModal('Product 1')">
+                <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/w_640,c_limit/cf5e4d6b-abff-43f6-9fcd-9845987c42f0/%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B8%A7-jordan-x-travis-scott-signature-apparel-collection.jpg" alt="Product 1">
+                <h3>เสื้อยืดผู้ชาย Jordan x Travis Scott สีน้ำตาล</h3>
+                <p>฿1,900.00</p>
+            </div>
+            <div class="product" onclick="openModal('Product 2')">
+                <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/w_640,c_limit/e8ce5639-14ea-4fce-b6d2-fa6679ac9814/%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B8%A7-jordan-x-travis-scott-signature-apparel-collection.jpg" alt="Product 2">
+                <h3>เสื้อยืดผู้ชาย Jordan x Travis Scott สีดำ</h3>
+                <p>฿1,900.00</p>
+            </div>
+            <div class="product" onclick="openModal('Product 3')">
+                    <img src="file:///D:/Focusite/AI_Generated_Image_2024-05-20_453922127021201.png" alt="Product 3">
+                <h3>เสื้อยืดผู้ชาย Lunar Lover "The moon Collection</h3>
+                <p>฿500.00</p>
+            </div>
+            <div class="product" onclick="openModal('Product 4')">
+                    <img src="file:///D:/Focusite/AI_Generated_Image_2024-05-20_453922997015201.png" alt="Product 4">
+                <h3>เสื้อยืดผู้ชาย Lunar Lover "The moon Collection</h3>
+                <p>฿500.00</p>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </main>
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description">Description of the product goes here.</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+    </div>
+
+    <script src="shirt web.js"></script>
+</body>
+</html>
